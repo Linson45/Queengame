@@ -1,15 +1,7 @@
 let queen = [{
         direction: 'S',
         position: [0, 3]
-    },
-    {
-        direction: 'N',
-        position: [7, 3]
-    },
-    {
-        direction: 'W',
-        position: [4, 4]
-    },
+    }
 ];
 
 function changeDirection(piece, move) {
