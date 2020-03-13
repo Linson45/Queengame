@@ -80,7 +80,7 @@ function updatePosition(arrs) {
         // document.write(queen);
     }
 }
-moves = [2, 4, 6]
+moves = [2]
 for (i = 0; i < queen.length; i++) {
     changeDirection(queen[i], moves[i]);
 }
