@@ -81,6 +81,5 @@ function updatePosition(arrs) {
     }
 }
 moves = [2]
-for (i = 0; i < queen.length; i++) {
-    changeDirection(queen[i], moves[i]);
-}
+
+changeDirection(queen[0], moves[0]);
